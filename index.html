@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <section class="heading-icons">
+        <i class="fas fa-house-user icons"  style="color:#ff6384" id="cat"></i>
+        <i class="fas fa-car icons" style="color:#3ca2eb" id="dog"></i>
+        <i class="fas fa-money-bill-wave icons" style="color: #4bc04b" id="dove"></i>
+        <i class="fas fa-plane icons"  style="color:#9966ff" id="fish"></i>
+        <i class="fas fa-mobile-alt icons" style="color:#ffce56" id="frog"></i>
+    </section>
+
+    <section class="droppable-elements">
+        <div class="droppable" id="backlog">
+            <h4>Backlog</h4>
+            <div class="draggable" draggable="true" id="house"><i class="fas fa-house-user" style="color:#ff6384"></i></div>
+             <div class="draggable" draggable="true" style="color:#3ca2eb" id="car"><i class="fas fa-car" style="color:#3ca2eb"></i></div>
+            <div class="draggable" draggable="true"  id="money"><i style="color:#4bc0c0" class="fas fa-money-bill-wave"></i></div>
+            <div class="draggable" draggable="true" id="plane"><i style="color:#9966ff" class="fas fa-plane"></i></div>
+            <div class="draggable" draggable="true" id="phone"><i  style="color:#ffce56" class="fas fa-mobile-alt"></i></div>
+        </div>
+
+        <div class="droppable" id="todo">
+            <h4>To Do</h4>
+        </div>
+
+        <div class="droppable" id="doing">
+            <h4>Doing</h4>
+        </div>
+
+        <div class="droppable" id="done">
+            <h4>Done</h4>
+        </div>
+    </section>
+</body>
+</html>
